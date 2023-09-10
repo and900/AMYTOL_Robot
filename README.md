@@ -29,6 +29,10 @@ The NexGen Robot has a number of built in sensors.
 This library is designed to easily access the robot's functionality.
 
 AMYTOL_Robot provides a library for Forward, Back, Brake, Turn Left and Turn Right classes for the motors of the to the NextGen Robot
+<div align="center">
+<a href="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot/">
+    <img src="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot/images/NEXTGEN%20ROBOT.png" alt="Logo" width="249" height="189">
+</a>
 
 # Author
   Created by Andrew Morgan September 8th 2023
