@@ -1,21 +1,21 @@
 <div align="center">
-  <a href="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot">
-    <img src="logo.jpg" alt="Logo" width="80" height="80">
+  <a href="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot/">
+    <img src="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot/scr/logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">All My Things Online</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An awesome Robot project to jumpstart your knowledge!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot/issues">Request Feature</a>
   </p>
 </div>
 https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot/scr/logo.jpg
