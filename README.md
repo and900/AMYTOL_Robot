@@ -19,7 +19,7 @@
   </p>
 </div>
 
-
+  <h3 align="left"></h3>
 
 # AMYTOL Robot
 AMYTOL created Library and Sample Code for the NEXTGEN CODECAMP
@@ -33,6 +33,8 @@ AMYTOL_Robot provides a library for Forward, Back, Brake, Turn Left and Turn Rig
 <a href="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot/">
     <img src="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot/images/NEXTGEN%20ROBOT.png" alt="Logo" width="249" height="189">
 </a>
+</div>
+
 
 # Author
   Created by Andrew Morgan September 8th 2023
