@@ -1,7 +1,12 @@
-<div align="center">
+<div align="left">
   <a href="https://github.com/and900/Reference/blob/main/images/">
+    <img src="https://github.com/and900/Reference/blob/main/images/Header_banner.jpg" alt="Logo" width="1100" height="168">
+  </a>
+<div align="center">
+    <a href="https://github.com/and900/Reference/blob/main/images/">
     <img src="https://github.com/and900/Reference/blob/main/images/logo.jpg" alt="Logo" width="80" height="80">
   </a>
+
 
   <h3 align="center">All My Things Online</h3>
 <img src="https://github.com/and900/Reference/blob/main/images/I_Amytol_L_0.png" alt="Logo" width="80" height="80">
