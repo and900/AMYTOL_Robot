@@ -1,15 +1,13 @@
-<div align="left">
-  <a href="https://github.com/and900/Reference/blob/main/images/">
-    <img src="https://github.com/and900/Reference/blob/main/images/Header_banner.jpg" alt="Logo" width="1100" height="168">
-</a>
-<div align="center">
-    <a href="https://github.com/and900/Reference/blob/main/images/">
-    <img src="https://github.com/and900/Reference/blob/main/images/logo.jpg" alt="Logo" width="80" height="80">
-  </a>
 
 
+  <img align="left" width="1100" height="168" src="https://github.com/and900/Reference/blob/main/images/Header_banner.jpg">
+  <img align="left" width="80" height="80" src="https://github.com/and900/Reference/blob/main/images/I_Amytol_L_0.png">
+<p align="center">
+  <img width="80" height="80" 
+  src="https://github.com/and900/Reference/blob/main/images/logo.jpg">
+</p>
   <h3 align="center">All My Things Online</h3>
-<img src="https://github.com/and900/Reference/blob/main/images/I_Amytol_L_0.png" alt="Logo" width="80" height="80">
+
   <p align="center">
     "AMYTOL" say this is a awesome Robot project enabling you to jumpstart your knowledge!
     <br />
