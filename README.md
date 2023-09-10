@@ -4,7 +4,7 @@
   </a>
 
   <h3 align="center">All My Things Online</h3>
-
+<img src="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot/images/I_Amytol_L_0.png" alt="Logo" width="80" height="80">
   <p align="center">
     An awesome Robot project to jumpstart your knowledge!
     <br />
@@ -18,6 +18,7 @@
     <a href="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot/issues">Request Feature</a>
   </p>
 </div>
+
 
 
 # AMYTOL Robot
