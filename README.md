@@ -25,9 +25,9 @@
 AMYTOL created Library and Sample Code for the NEXTGEN CODECAMP
 # Amytol Robot NEXTGEN
 The NexGen Robot has a number of built in sensors. 
-
+    <br />
 This library is designed to easily access the robot's functionality.
-
+    <br />
 AMYTOL Robot provides a library for Forward, Back, Brake, Turn Left and Turn Right classes for the motors of the to the NextGen Robot
 <div align="center">
 <a href="https://github.com/and900/Reference/blob/main/images/">
