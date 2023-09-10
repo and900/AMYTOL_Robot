@@ -59,8 +59,22 @@ Libary autocomplete prefix is "rbt"
 ### Initalise 
 Rbt rbt (007);   Secret Agent Pin Delaration
 
+#### Fixed Variables
+ultrasonicPin = 7;
+buzzerPin = 8;
+touchSensorPin = 9;
+buzzer = 8;
+fast_speed = 255;
+medium_speed = 140;
+slow_speed = 80;
+tenthofaSecond = 100 milliseconds
+halfaSecond = 500;
+oneSecond = 1000;
+twoSeconds = 2000;
+fiveSeconds = 5000;
+num_times_to_repeat =1;
 
-#### WARRANTY
+##### WARRANTY
 This library is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
