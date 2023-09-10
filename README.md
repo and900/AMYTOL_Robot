@@ -6,7 +6,7 @@
   <h3 align="center">All My Things Online</h3>
 <img src="https://github.com/and900/Reference/blob/main/images/I_Amytol_L_0.png" alt="Logo" width="80" height="80">
   <p align="center">
-    An awesome Robot project to jumpstart your knowledge!
+    AMYTOL MAN say this is a awesome Robot project enabling you to jumpstart your knowledge!
     <br />
     <a href="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot"><strong>Explore the docs »</strong></a>
     <br />
