@@ -85,5 +85,5 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 <div align="left">
   <a href="https://github.com/and900/Reference/blob/main/images/">
-    <img src="https://github.com/and900/Reference/blob/main/images/Footer_banner.jpg" alt="Logo" width="1100" height="168">
+    <img src="https://github.com/and900/Reference/blob/main/images/Footer_banner.jpg" alt="Logo" width="1450" height="168">
   </a>
