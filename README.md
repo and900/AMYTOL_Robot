@@ -39,28 +39,20 @@ AMYTOL_Robot provides a library for Forward, Back, Brake, Turn Left and Turn Rig
 This is an Arduino library to demonstrate how you to extend the functionality of Arduino C+.
 Pin configuration is stored in the Construction file called by yhe constraint
 Libary autocomplete prefix is "rbt" 
-ArduinoWorkspace --- /
+<br />
+   ArduinoWorkspace --- /
+<br />
        AMYTOL_Robot/ ----+ /
-            examples/--------   + AmytolRobot.ino
-              src/ --------     + AmytolRobot.cpp
-                                + AmytolRobot.h
- 
+<br />
+           examples/--------   + AmytolRobot.ino
+<br />
+               src/ --------   + AmytolRobot.cpp
+<br />
+                               + AmytolRobot.h
 
 ### Initalise 
-Rbt rbt (007);   Secret Agent Pin Delaration  .-.  .-.  --..::==
-R                                            (   )(   )  //"
-R                                             '-'  '-'  //
-R
--           rpin mrpin
--         ___      ___        
--        [_ _]    [_ _]   _
--   /|  ___$________S_   | \
--  / |-/        ____  [++| |+
-- <<<<<---<|  |>____O)<ooo>|
--  \ |-\___ ________ _[++| |+
--   \|    _$_      _S_   |_/  
--        [___]    [___]            
--           lpin mrlpin
+Rbt rbt (007);   Secret Agent Pin Delaration
+
 
 #### WARRANTY
 This library is distributed in the hope that it will be useful,
