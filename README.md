@@ -11,11 +11,11 @@
     <a href="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot">View Demo</a>
+    <a href="http:www.miss-millie.com">View Demo</a>
     ·
-    <a href="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot/issues">Report Bug</a>
+    <a href="https://github.com/and900/AMYTOL_Robot/blob/main/.github/ISSUE_TEMPLATE/bug_report.md">Report Bug</a>
     ·
-    <a href="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot/issues">Request Feature</a>
+    <a href="https://github.com/and900/AMYTOL_Robot/blob/main/.github/ISSUE_TEMPLATE/feature_request.md">Request Feature</a>
   </p>
 </div>
 
