@@ -18,7 +18,6 @@
     <a href="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot/issues">Request Feature</a>
   </p>
 </div>
-https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot/scr/logo.jpg
 
 
 # AMYTOL Robot
