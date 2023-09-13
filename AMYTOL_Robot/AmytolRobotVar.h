@@ -15,6 +15,7 @@ extern int touchSensorPin;
 extern int buzzer;
 extern int fast_speed;
 extern int medium_speed;
+extern int medLow_speed;
 extern int slow_speed;
 extern int tenthofaSecond;
 extern int halfaSecond;

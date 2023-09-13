@@ -18,10 +18,10 @@ Rbt::Rbt(int pin)
  // _tpin  = 9; //touch Sensor Pin
  //_bpin  = 8; //buzzer Pin 
  //_upin  = 7; //Ultrosonic Pin 
-  _rpin  = 6; // dirLPin direction left pin connected to the motor
-  _mrpin = 5; //motorLPin PWM output pin connected to the motor left pin
-  _lpin  = 3; // dirRPin direction right pin connected to the motor
-  _mlpin = 2; //motorRPin PWM output pin connected to the motor right pin
+  _lpin  = 6; // dirLPin direction left pin connected to the motor
+  _mlpin = 5; // motorLPin PWM output pin connected to the motor left pin
+  _rpin  = 3; // dirRPin direction right pin connected to the motor
+  _mrpin = 2; // motorRPin PWM output pin connected to the motor right pin
   
  }
 
@@ -54,10 +54,6 @@ void Rbt::dash()
   digitalWrite(_pin, LOW);
   delay(250);
 }
-
-
-
-
 
 void Rbt::setSpeed(int PWMcl) {
   // set the PWM cycle length for around 140 to give a reasonable motor speed. Value between 0 and 255
@@ -113,6 +109,24 @@ void Rbt::forwardFor(int PWMcl, int delayms) {
     delay(delayms);
     setSpeed(0);
 }
+void Rbt::forward(int PWMcl) {
+ /*
+ Serial.print("forward lpin: ");
+  Serial.print(_lpin);
+  Serial.print(" rpin: ");
+  Serial.print(_rpin);
+    Serial.print(" speed: ");
+    Serial.print(speed);
+    Serial.print(" ms: ");
+    Serial.println(" ....");
+ */
+    setSpeed(PWMcl);
+//  analogWrite(_mlpin, PWMcl);
+//  analogWrite(_mrpin, PWMcl);
+    digitalWrite(_lpin, HIGH);
+    digitalWrite(_rpin, HIGH);
+}
+
 void Rbt::forward(int speed, int delayms) {
  /*
  Serial.print("forward lpin: ");
