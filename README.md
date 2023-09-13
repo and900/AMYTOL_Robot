@@ -41,7 +41,7 @@ AMYTOL Robot provides a library for Forward, Back, Brake, Turn Left and Turn Rig
 Motor connections to be wired as defiend below  
 <div align="center">
 <a href="https://github.com/and900/Reference/blob/main/images/">
-    <img src="https://github.com/and900/Reference/blob/main/images/NEXTGEN%20ROBOT.png" alt="Logo" width="249" height="189">
+    <img src="https://github.com/and900/Reference/blob/main/images/Connect%20NextGen%20Wires.png" alt="Logo" width="249" height="189">
 </a>
 </div>
 
