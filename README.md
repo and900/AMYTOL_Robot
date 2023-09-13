@@ -48,7 +48,7 @@ Motor connections to be wired as defiend below
 # Author
   Created by Andrew Morgan September 8th 2023
   All My Things On Line AMYTOL
-  wwww.AllMyThingsOnLine.com
+  www.AllMyThingsOnLine.com
 
 ## Description
 This is an Arduino library to demonstrate how you to extend the functionality of Arduino C+.
