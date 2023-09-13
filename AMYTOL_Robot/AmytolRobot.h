@@ -12,6 +12,7 @@
 {
 byte pwm_pin[] = { 5, 6, };
 #define VOLTAGE_DETECTION_PIN A0
+#define BATTERY_PIN A0
 #define LOW_VOLTAGE 440
 #define BAUD_RATE 9600
 #define FORWARD 1
@@ -44,6 +45,7 @@ public:
   void stopCoast();
   void stopHard();
   void stopBrake(int delayms);
+  void batteryCheckTone();
 private:
   int _pin;
   int _bpin;
