@@ -1,24 +1,21 @@
+<div align="center">
+  <a href="https://github.com/and900/Reference/blob/main/images/">
+    <img src="https://github.com/and900/Reference/blob/main/images/logo.jpg" alt="Logo" width="80" height="80">
+  </a>
 
-
-  <img align="left" width="1100" height="168" src="https://github.com/and900/Reference/blob/main/images/Header_banner.jpg">
-  <img align="left" width="80" height="80" src="https://github.com/and900/Reference/blob/main/images/I_Amytol_L_0.png">
-<p align="center">
-  <img width="80" height="80" 
-  src="https://github.com/and900/Reference/blob/main/images/logo.jpg">
-</p>
   <h3 align="center">All My Things Online</h3>
-
+<img src="https://github.com/and900/Reference/blob/main/images/I_Amytol_L_0.png" alt="Logo" width="80" height="80">
   <p align="center">
-    "AMYTOL" say this is a awesome Robot project enabling you to jumpstart your knowledge!
+    An awesome Robot project to jumpstart your knowledge!
     <br />
     <a href="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="http:www.miss-millie.com">View Demo</a>
+    <a href="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot">View Demo</a>
     ·
-    <a href="https://github.com/and900/AMYTOL_Robot/blob/main/.github/ISSUE_TEMPLATE/bug_report.md">Report Bug</a>
+    <a href="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot/issues">Report Bug</a>
     ·
-    <a href="https://github.com/and900/AMYTOL_Robot/blob/main/.github/ISSUE_TEMPLATE/feature_request.md">Request Feature</a>
+    <a href="https://github.com/and900/AMYTOL_Robot/blob/main/AMYTOL_Robot/issues">Request Feature</a>
   </p>
 </div>
 
@@ -38,17 +35,11 @@ AMYTOL Robot provides a library for Forward, Back, Brake, Turn Left and Turn Rig
 </a>
 </div>
 
-Motor connections to be wired as defiend below  
-<div align="center">
-<a href="https://github.com/and900/Reference/blob/main/images/">
-    <img src="https://github.com/and900/Reference/blob/main/images/Connect%20NextGen%20Wires.png" alt="Logo" width="249" height="189">
-</a>
-</div>
 
 # Author
   Created by Andrew Morgan September 8th 2023
   All My Things On Line AMYTOL
-  www.AllMyThingsOnLine.com
+  wwww.AllMyThingsOnLine.com
 
 ## Description
 This is an Arduino library to demonstrate how you to extend the functionality of Arduino C+.
@@ -87,7 +78,3 @@ num_times_to_repeat =1;
 This library is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-<div align="left">
-  <a href="https://github.com/and900/Reference/blob/main/images/">
-    <img src="https://github.com/and900/Reference/blob/main/images/Footer_banner.jpg" alt="Logo" width="1450" height="168">
-  </a>
