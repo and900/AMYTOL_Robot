@@ -7,7 +7,7 @@ void setup()
 }
 void loop()
 {
-  if(num_times_to_repeat < 5) {.       // Repeats 4 times
+  if(num_times_to_repeat < 5) {      // Repeats 4 times
   Serial.print("Number of repeats: "); // Prints in the Serial Monitor
   Serial.println(num_times_to_repeat); // Prints in the Serial Monitor
    rbt.forward(fast_speed, halfaSecond); // PMW 255 for 500 milliseconds
