@@ -32,11 +32,11 @@ AMYTOL Robot provides a library for Forward, Back, Brake, Turn Left and Turn Rig
 
 # WIRING
 Please Note: This program assumes the Rover 3V is wired as follows:
- <br />WIRE         Motor Drive<br />
- <br />Left Black   B-<br />
- <br />Left Red     B+<br />
- <br />Right Black  A+<br />
-Right Red    A-<br />
+ <br /> WIRE         Motor Drive<br />
+ <br /> Left Black   B- <br />
+ <br /> Left Red     B+ <br />
+ <br /> Right Black  A+ <br />
+ <br /> Right Red    A- <br />
 <div align="center">
 <a href="https://github.com/and900/Reference/blob/main/images/">
     <img src="https://github.com/and900/Reference/blob/main/images/NEXTGEN%20ROBOT.png" alt="Logo" width="249" height="189">
