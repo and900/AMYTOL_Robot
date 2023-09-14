@@ -29,6 +29,8 @@ The NexGen Robot has a number of built in sensors.
 This library is designed to easily access the robot's functionality.
     <br />
 AMYTOL Robot provides a library for Forward, Back, Brake, Turn Left and Turn Right classes for the motors of the to the NextGen Robot
+
+#WIRING
 Please Note: This program assumes the Rover 3V is wired as follows:
  <br />WIRE         Motor Drive<br />
  <br />Left Black   B-<br />
