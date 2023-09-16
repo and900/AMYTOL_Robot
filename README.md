@@ -39,6 +39,8 @@ Wiring for the motor driver inputs are:
 | --- | --- | --- | --- |
 | J1| 1| Yellow| PWM A |
 | J1| 2| White| DIR A |
+| J1| 3| Not Used| Not Used |
+| J1| 4| Black| GND |
 | J4| 1| Yellow| PWM B|
 | J4| 2| White| DIR B |
 | J4| 3| Not Used| Not Used |
