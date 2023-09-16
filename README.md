@@ -31,12 +31,28 @@ This library is designed to easily access the robot's functionality.
 AMYTOL Robot provides a library for Forward, Back, Brake, Turn Left and Turn Right classes for the motors of the to the NextGen Robot
 
 # WIRING
-Please Note: This program assumes the Rover 3V is wired as follows:
- <br /> WIRE         Motor Drive<br />
- <br /> Left Black   B- <br />
- <br /> Left Red     B+ <br />
- <br /> Right Black  A+ <br />
- <br /> Right Red    A- <br />
+This program assumes the wiring for the Rover 3V is as follows:
+  <br />
+Wiring for the motor driver inputs are:
+  <br />
+| Connector | Pin | Wire Colour | To Motor Driver |
+| --- | --- | --- | --- |
+| J1| 1| Yellow| PWM A |
+| J1| 2| White| DIR A |
+| J4| 1| Yellow| PWM B|
+| J4| 2| White| DIR B |
+| J4| 3| Not Used| Not Used |
+| J4| 4| Black| GND |
+ 
+Motor Driver Outputs
+
+| From Motor Driver | Motor | Wire Colour | 
+| --- | --- | --- |
+| B- | Left Motor | Black |
+| B+ | Left Motor | Red |
+| A+ | Right Motor | Black | 
+| A- | Right Motor | Red |   
+
 <div align="center">
 <a href="https://github.com/and900/Reference/blob/main/images/">
     <img src="https://github.com/and900/Reference/blob/main/images/NEXTGEN%20ROBOT.png" alt="Logo" width="249" height="189">
