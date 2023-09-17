@@ -19,9 +19,9 @@ Rbt::Rbt(int pin)
  //_bpin  = 8; //buzzer Pin 
  //_upin  = 7; //Ultrosonic Pin 
   _lpin  = 6; // dirLPin direction left pin connected to the motor
-  _mlpin = 5; // motorLPin PWM output pin connected to the motor left pin
   _rpin  = 3; // dirRPin direction right pin connected to the motor
-  _mrpin = 2; // motorRPin PWM output pin connected to the motor right pin
+  _mlpin = 2; // motorLPin PWM output pin connected to the motor left pin
+  _mrpin = 5; // motorRPin PWM output pin connected to the motor right pin
   
  }
 
