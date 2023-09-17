@@ -50,11 +50,10 @@ Motor Driver Outputs
 
 | From Motor Driver | Motor | Wire Colour | 
 | --- | --- | --- |
-| A+ | Right Motor | Black | 
-| A- | Right Motor | Red |   
-| B- | Left Motor | Black |
-| B+ | Left Motor | Red |
-
+| A+ | Left Motor | Red |
+| A- | Left Motor | Black |
+| B- | Right Motor | Red |   
+| B+ | Right Motor | Black | 
 
 <div align="center">
 <a href="https://github.com/and900/Reference/blob/main/images/">
