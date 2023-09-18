@@ -22,7 +22,7 @@
   <h3 align="left"></h3>
 
 # AMYTOL Robot
-AMYTOL created Library and Sample Code for the NEXTGEN CODECAMP
+AMYTOL created Library and Sample Code for the NEXTGEN Rover v3
 # Amytol Robot NEXTGEN
 The NexGen Robot has a number of built in sensors. 
     <br />
