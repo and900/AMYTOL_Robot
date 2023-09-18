@@ -199,8 +199,11 @@ void Rbt::backward(int speed, int delayms) {
   */
     digitalWrite(_lpin, LOW);
     digitalWrite(_rpin, LOW);
-    setSpeed(0);
+    setSpeedLeft(speed);
+    setSpeedRight(speed);
     delay(delayms);
+    setSpeed(0);
+  
 }
 void Rbt::turnRight(int speed,int delayms) 
 {

@@ -16,6 +16,7 @@ int buzzerPin = 8;
 int touchSensorPin = 9;
 int buzzer = 8;
 int fast_speed = 255;
+int medFast_speed = 240;
 int medium_speed = 150;
 int medLow_speed = 140;
 int slow_speed = 80;
