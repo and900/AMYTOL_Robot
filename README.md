@@ -29,8 +29,16 @@ The NexGen Robot has a number of built in sensors.
 This library is designed to easily access the robot's functionality.
     <br />
 AMYTOL Robot provides a library for Forward, Back, Brake, Turn Left and Turn Right classes for the motors of the to the NextGen Robot
-
-# WIRING
+# WIRING AMYTOL_X_ Examples
+The Ultrasonic sensor requires the manual installation of the library NewPin 
+  <br />
+Wiring for the Ultrasonic device is:
+  <br />
+| Connector | Pin | Wire Colour | To Motor Driver |
+| --- | --- | --- | --- |
+| J3| |||
+| J8| GROVE || Ultrasonic |
+# WIRING AMYTOL_NxtGen_ Examples
 This program assumes the wiring for the Rover 3V is as follows:
   <br />
 Wiring for the motor driver inputs are:
@@ -45,6 +53,8 @@ Wiring for the motor driver inputs are:
 | J4| 2| White| DIR B |
 | J4| 3| Not Used| Not Used |
 | J4| 4| Black| GND |
+| J3| GROVE|| Ultrasonic|
+| J8| || |
  
 Motor Driver Outputs
 
