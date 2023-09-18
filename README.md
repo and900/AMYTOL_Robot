@@ -96,19 +96,24 @@ Libary autocomplete prefix is "rbt"
 Rbt rbt (007);   Secret Agent Pin Delaration
 
 #### Fixed Variables
-ultrasonicPin = 7;
-buzzerPin = 8;
-touchSensorPin = 9;
-buzzer = 8;
-fast_speed = 255;
-medium_speed = 140;
-slow_speed = 80;
-tenthofaSecond = 100 milliseconds
-halfaSecond = 500;
-oneSecond = 1000;
-twoSeconds = 2000;
-fiveSeconds = 5000;
-num_times_to_repeat =1;
+| Variable Name and Value |
+| --- | 
+| BATTERY_PIN = 0 |
+| ultrasonicPin = 7 |
+| buzzerPin = 8 |
+| touchSensorPin = 9 |
+| buzzer = 8 |
+| fast_speed = 255 milliseconds |
+| medFast_speed = 240 milliseconds |
+| medium_speed = 150 milliseconds |
+| medLow_speed = 140 milliseconds |
+| slow_speed = 80 milliseconds |
+| tenthofaSecond = 100 milliseconds |
+| halfaSecond = 500 milliseconds |
+| oneSecond = 1000 milliseconds |
+| twoSeconds = 2000 milliseconds |
+| fiveSeconds = 5000 milliseconds |
+| num_times_to_repeat =1 |
 
 ##### WARRANTY
 This library is distributed in the hope that it will be useful,
