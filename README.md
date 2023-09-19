@@ -30,9 +30,9 @@ This library is designed to easily access the robot's functionality.
     <br />
 AMYTOL Robot provides a library for Forward, Back, Brake, Turn Left and Turn Right classes for the motors of the to the NextGen Robot
 # WIRING AMYTOL_X_ Examples
-The Ultrasonic sensor requires the manual installation of the library NewPin 
+The Ultrasonic sensor uses the provided library NewPing no need for an additional library 
   <br />
-Wiring for the Ultrasonic device is:
+Wiring for the NewPing version of the Ultrasonic device is:
   <br />
 | Connector | Pin | Wire Colour | To Motor Driver |
 | --- | --- | --- | --- |
