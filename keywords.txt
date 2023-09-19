@@ -1,7 +1,22 @@
-#class (KEYWORD1)
+ 
+ 
+###################################
+# Syntax Coloring Map
+###################################
+
+###################################
+# Datatypes (KEYWORD1)
+# class (KEYWORD1)
+###################################
+
 Rbt                            KEYWORD1
 Ulson                          KEYWORD1
+NewPing	                       KEYWORD1
+
+###################################
+# Methods and Functions (KEYWORD2)
 #function and method (KEYWORD2)
+###################################
 begin					        KEYWORD2
 dash	                        KEYWORD2
 dot	                            KEYWORD2
@@ -14,14 +29,26 @@ turnLeft                        KEYWORD2
 forward                         KEYWORD2
 backward                        KEYWORD2
 brake                           KEYWORD2
- 
- 
-#constant (LITERAL1)
-#none
+
+ping	KEYWORD2
+ping_in	KEYWORD2
+ping_cm	KEYWORD2
+ping_median	KEYWORD2
+ping_timer	KEYWORD2
+check_timer	KEYWORD2
+ping_result	KEYWORD2
+timer_us	KEYWORD2
+timer_ms	KEYWORD2
+timer_stop	KEYWORD2
+convert_in	KEYWORD2
+convert_cm	KEYWORD2
+
+###################################
+# Constants (LITERAL1)
+###################################
 TYPE_RGB						LITERAL1
 TYPE_RBG						LITERAL1
 TYPE_GRB						LITERAL1
 TYPE_GBR						LITERAL1
 TYPE_BRG						LITERAL1
 TYPE_BGR						LITERAL1
-

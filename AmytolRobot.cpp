@@ -22,7 +22,6 @@ Rbt::Rbt(int pin)
   _rpin  = 3; // dirRPin direction right pin connected to the motor
   _mlpin = 2; // motorLPin PWM output pin connected to the motor left pin
   _mrpin = 5; // motorRPin PWM output pin connected to the motor right pin
-  
  }
 
 void Rbt::begin()
