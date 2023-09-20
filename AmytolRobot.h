@@ -34,22 +34,24 @@ public:
   void dot();
   void dash();
   void speed_increment(int speed_increment);
-  void setSpeed(int PWMcl);
-  void setSpeedLeft(int PWMcl);
-  void setSpeedRight(int PWMcl);
+  void setSpeed(int PWM);
+  void setSpeed(int PWML,int PWMR);
+  void setSpeedLeft(int PWML);
+  void setSpeedRight(int PWML );
   void turnRight(int speed, int delayms);
-  void turnLeft(int speed, int delayms);
-  void forwardFor(int PWMcl, int delayms);
+  void turnLeft(int PWM, int delayms);
+  void turnLeft(int PWML, int PWMR, int delayms);
+  void forwardFor(int PWM, int delayms);
   void forward(int speed, int delayms);
-  void forward(int PWMcl);
-  void forward(int speedL, int speedR, int delayms);
-  void backwardFor(int PWMcl, int delayms);
+  void forward(int PWM);
+  void frwrdSpedVar(int PWML,int PWMR, int delayms);
+  void backwardFor(int PWM, int delayms);
   void backward(int speedd, int delayms);
   void stopCoast();
   void stopHard();
   void stopBrake(int delayms);
   void batteryCheckTone();
-private:
+ private:
   int _pin;
   int _bpin;
   int _tpin;
@@ -58,7 +60,9 @@ private:
   int _rpin;
   int _mlpin;
   int _mrpin;
- };
+  int tuningLeftMotor;
+  int tuningRightMotor;
+};
 
 #endif
 

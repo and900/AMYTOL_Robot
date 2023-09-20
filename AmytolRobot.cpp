@@ -22,6 +22,8 @@ Rbt::Rbt(int pin)
   _lpin  = 3; // dirLPin direction left pin connected to the motor
   _mrpin = 5; // motorRPin PWM output pin connected to the motor right pin
   _rpin  = 6; // dirRPin direction right pin connected to the motor
+  tuningLeftMotor = 0;
+  tuningRightMotor = 0;
  }
 
 void Rbt::begin()
@@ -53,8 +55,7 @@ void Rbt::dash()
   digitalWrite(_pin, LOW);
   delay(250);
 }
-
-void Rbt::setSpeed(int PWMcl) {
+void Rbt::setSpeed(int PWM) {
   // set the PWM cycle length for around 140 to give a reasonable motor speed. Value between 0 and 255
  /*
   Serial.print("set Speed mlpin: ");
@@ -62,41 +63,56 @@ void Rbt::setSpeed(int PWMcl) {
   Serial.print(" set Speed mrpin: ");
   Serial.print(_mrpin);
   Serial.print(" set Speed ms: ");
-  Serial.print(PWMcl);
+  Serial.print(PWM);
   Serial.println(" ....");
  */
-  analogWrite(_mlpin, PWMcl);
-  analogWrite(_mrpin, PWMcl);
+  analogWrite(_mlpin, PWM);
+  analogWrite(_mrpin, PWM);
 }
-void Rbt::setSpeedLeft(int PWMcl) {
+void Rbt::setSpeed(int PWML,int PWMR) {
+  // set the PWM cycle length for around 140 to give a reasonable motor speed. Value between 0 and 255
+ /*
+  Serial.print("set Speed mlpin: ");
+  Serial.print(_mlpin);
+  Serial.print(" set Speed mrpin: ");
+  Serial.print(_mrpin);
+  Serial.print(" set Speed ms: ");
+  Serial.print(PWM);
+  Serial.println(" ....");
+ */
+  analogWrite(_mlpin, PWML);
+  analogWrite(_mrpin, PWMR);
+}
+void Rbt::setSpeedLeft(int PWML) {
   // set the motor speed to a value between 0 and 255
 /*
   Serial.print("set Speed left mlpin: ");
   Serial.print(_mlpin);
-  Serial.print(" PWMcl ms: ");
-  Serial.print(PWMcl);
+  Serial.print(" PWM ms: ");
+  Serial.print(PWM);
   Serial.println(" ....");
 */
-  analogWrite(_mlpin, PWMcl);
+  analogWrite(_mlpin, PWML);
 }
-void Rbt::setSpeedRight(int PWMcl) {
+void Rbt::setSpeedRight(int PWMR) {
   // set the motor speed to a value between 0 and 255
   /*
   Serial.print("set Speed left mrpin: ");
   Serial.print(_mrpin);
-  Serial.print(" PWMcl ms: ");
-  Serial.print(PWMcl);
+  Serial.print(" PWM ms: ");
+  Serial.print(PWM);
   Serial.println(" ....");
   */
-  analogWrite(_mrpin, PWMcl);
+  analogWrite(_mrpin, PWMR);
 }
-void Rbt::forwardFor(int PWMcl, int delayms) {
+
+void Rbt::forwardFor(int PWM, int delayms) {
 /*  Serial.print("forward for lpin: ");
   Serial.print(_lpin);
   Serial.print(" rpin: ");
   Serial.print(_rpin);
     Serial.print(" speed: ");
-    Serial.print(PWMcl);
+    Serial.print(PWM);
     Serial.print(" delay ms: ");
     Serial.print(delayms);
     Serial.println(" ....");
@@ -104,11 +120,11 @@ void Rbt::forwardFor(int PWMcl, int delayms) {
    
     digitalWrite(_lpin, HIGH);
     digitalWrite(_rpin, HIGH);
-    setSpeed(PWMcl);
+    setSpeed(PWM);
     delay(delayms);
     setSpeed(0);
 }
-void Rbt::forward(int PWMcl) {
+void Rbt::forward(int PWM) {
  /*
  Serial.print("forward lpin: ");
   Serial.print(_lpin);
@@ -119,9 +135,9 @@ void Rbt::forward(int PWMcl) {
     Serial.print(" ms: ");
     Serial.println(" ....");
  */
-    setSpeed(PWMcl);
-//  analogWrite(_mlpin, PWMcl);
-//  analogWrite(_mrpin, PWMcl);
+    setSpeed(PWM);
+//  analogWrite(_mlpin, PWM);
+//  analogWrite(_mrpin, PWM);
     digitalWrite(_lpin, HIGH);
     digitalWrite(_rpin, HIGH);
 }
@@ -139,48 +155,28 @@ void Rbt::forward(int speed, int delayms) {
     Serial.println(" ....");
  */
     setSpeed(speed);
-//  analogWrite(_mlpin, PWMcl);
-//  analogWrite(_mrpin, PWMcl);
+//  analogWrite(_mlpin, PWM);
+//  analogWrite(_mrpin, PWM);
     digitalWrite(_lpin, HIGH);
     digitalWrite(_rpin, HIGH);
     delay(delayms);
 }
-void Rbt::forward(int speedL, int speedR, int delayms) {
-  /*
-  Serial.print("forward lpin: ");
-  Serial.print(_lpin);
-  Serial.print(" rpin: ");
-  Serial.print(_rpin);
-   Serial.print(" speedL: ");
-    Serial.print(speedL);
-    Serial.print(" speedR: ");
-    Serial.print(speedR);
-    Serial.print(" ms: ");
-    Serial.print(delayms);
-    Serial.println(" ....");
-  */
-    digitalWrite(_lpin, HIGH);
-    digitalWrite(_rpin, HIGH);
-    setSpeedLeft(speedL);
-    setSpeedRight(speedR);
-    delay(delayms);
-    setSpeed(0);
-}
-void Rbt::backwardFor(int PWMcl, int delayms) {
+
+void Rbt::backwardFor(int PWM, int delayms) {
  /*
   Serial.print("forward for lpin: ");
   Serial.print(_lpin);
   Serial.print(" rpin: ");
   Serial.print(_rpin);
     Serial.print(" speed: ");
-    Serial.print(PWMcl);
+    Serial.print(PWM);
     Serial.print(" delay ms: ");
     Serial.print(delayms);
     Serial.println(" ....");
  */
     digitalWrite(_lpin, LOW);
     digitalWrite(_rpin, LOW);
-    setSpeed(PWMcl);
+    setSpeed(PWM);
     delay(delayms);
     setSpeed(0);
 }
@@ -225,7 +221,32 @@ void Rbt::turnRight(int speed,int delayms)
     setSpeed(0);
     //delay(1000);
   }
-void Rbt::turnLeft(int speed, int delayms) 
+  void Rbt::turnLeft(int PWML, int PWMR, int delayms) 
+{
+    digitalWrite(_lpin, LOW);
+    digitalWrite(_rpin, HIGH);
+//    setSpeedLeft(PWML);
+analogWrite(_mlpin, PWML);
+ //   setSpeedRight(PWMR);
+analogWrite(_mrpin, PWMR);
+    delay(delayms);
+    setSpeed(0);
+    delay(1000);
+ }
+
+ void Rbt::frwrdSpedVar(int PWML,int PWMR, int delayms) {
+    digitalWrite(_lpin, HIGH);
+    digitalWrite(_rpin, HIGH);
+ //   setSpeed(PWML,PWMR);
+     setSpeed(PWML + tuningLeftMotor,PWMR + tuningRightMotor);
+//    an+alogWrite(_mlpin, PWML);
+ //   analogWrite(_mrpin, PWMR);
+    delay(delayms);
+  setSpeed(0,0);
+ //   analogWrite(_mlpin,0);
+  //  analogWrite(_mrpin,0);
+}
+void Rbt::turnLeft(int PWM, int delayms) 
 {
   /*
   Serial.print("turn left Speed lpin: ");
@@ -240,8 +261,8 @@ void Rbt::turnLeft(int speed, int delayms)
   */
     digitalWrite(_lpin, LOW);
     digitalWrite(_rpin, HIGH);
-    setSpeedLeft(speed);
-    setSpeedRight(speed);
+    setSpeedLeft(PWM);
+    setSpeedRight(PWM);
     delay(delayms);
     setSpeed(0);
     delay(1000);
