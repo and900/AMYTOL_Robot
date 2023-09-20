@@ -43,18 +43,18 @@ This program assumes the wiring for the Rover 3V is as follows:
   <br />
 Wiring for the motor driver inputs are:
   <br />
-| Connector | Pin | Wire Colour | To Motor Driver |
-| --- | --- | --- | --- |
-| J1| 1| Yellow| PWM A |
-| J1| 2| White| DIR A |
-| J1| 3| Not Used| Not Used |
-| J1| 4| Black| GND |
-| J4| 1| Yellow| PWM B|
-| J4| 2| White| DIR B |
-| J4| 3| Not Used| Not Used |
-| J4| 4| Black| GND |
-| J3| GROVE|| Ultrasonic|
-| J8| || |
+| Grove Connector | Grove Pin | Wire Colour | To Motor Driver | Arduino Pin |
+| --- | --- | --- | --- | -- |
+| J1| 1| Yellow| PWM A | 2 |
+| J1| 2| White| DIR A | 3 |
+| J1| 3| Not Used| Not Used | |
+| J1| 4| Black| GND | |
+| J4| 1| Yellow| PWM B| 5 |
+| J4| 2| White| DIR B | 6 |
+| J4| 3| Not Used| Not Used | |
+| J4| 4| Black| GND | |
+| J3| || Ultrasonic| |
+| J8| || | |
  
 Motor Driver Outputs
 
