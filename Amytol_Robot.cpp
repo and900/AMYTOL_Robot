@@ -18,8 +18,8 @@ Rbt::Rbt(int pin)
  // _tpin  = 9; //touch Sensor Pin
  //_bpin  = 8; //buzzer Pin 
  //_upin  = 7; //Ultrosonic Pin 
-  _mlpin = 2; // motorLPin PWM output pin connected to the motor left pin
-  _lpin  = 3; // dirLPin direction left pin connected to the motor
+  _mlpin = 3; // motorLPin PWM output pin connected to the motor left pin
+  _lpin  = 2; // dirLPin direction left pin connected to the motor
   _mrpin = 5; // motorRPin PWM output pin connected to the motor right pin
   _rpin  = 6; // dirRPin direction right pin connected to the motor
   tuningLeftMotor = 0;
