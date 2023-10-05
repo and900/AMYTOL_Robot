@@ -38,7 +38,7 @@ Wiring for the NewPing version of the Ultrasonic device is:
 | --- | --- | --- | --- |
 | J3| |||
 | J8| GROVE || Ultrasonic |
-# WIRING AMYTOL_NexGen_ Examples
+# WIRING AMYTOL NexGen Examples
 This program assumes wiring for the Rover 3V motor driver inputs 
   <br />
 and allocation of Arduino output pins are as outlined in the tables below.
