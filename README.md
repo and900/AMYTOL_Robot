@@ -43,7 +43,7 @@ This program assumes wiring for the Rover 3V motor driver inputs
   <br />
 and allocation of Arduino output pins are as outlined in the tables below.
   <br />
-## Grove Connectors 
+## Rover 3 Wiring 
 | Grove Connector | Grove Pin | Wire Colour | To Motor Driver | Arduino Pin | Notes |
 | --- | --- | --- | --- | -- | -- |
 | J1| 1| Yellow| PWM A | 3 | Left Motor PWM duty cycle for Speed |
