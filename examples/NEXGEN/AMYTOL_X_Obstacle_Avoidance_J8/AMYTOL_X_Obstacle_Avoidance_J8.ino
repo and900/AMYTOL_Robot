@@ -4,14 +4,14 @@
 // PINS to set up the pins as outputs:
 Rbt rbt (007); //Secret Agent Pin Declaration 
 //Ultrasonic sensor pins J8 Nexgen Rover v3
-//#define trig_pin A1 //analog input 1
-//#define echo_pin A1 //analog input 2 if Grove one pin use same pin
+#define trig_pin A1 //analog input 1
+#define echo_pin A1 //analog input 2 if Grove one pin use same pin
 //Ultrasonic sensor pins J3 Nexgen Rover v3
-//#define trig_pin A7 
-//#define echo_pin A7 
-//Ultrasonic sensor pins J8 Nexgen Rover v3
-int trig_pin = A5; //analog input 1
-int echo_pin = A5; //analog input 2 if Grove one pin use same pin
+//#define trig_pin 7 
+//#define echo_pin 7 
+//Ultrasonic sensor pins J10 Nexgen Rover v3
+//int trig_pin = A5; //analog input 1
+//int echo_pin = A5; //analog input 2 if Grove one pin use same pin
 #define maximum_distance 200
 boolean goesForward = false;
 int distance = 100;
