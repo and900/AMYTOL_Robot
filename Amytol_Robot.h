@@ -53,6 +53,12 @@ public:
   void stopHard();
   void stopBrake(int delayms);
   void batteryCheckTone();
+  void stopCoast(int speedPWM);
+  void stopCoastBwd();
+  void direction_FL();
+  void direction_FR();
+  void direction_BL();
+  void direction_BR();
  private:
   int _pin;
   int _bpin;

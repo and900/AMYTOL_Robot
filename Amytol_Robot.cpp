@@ -18,10 +18,19 @@ Rbt::Rbt(int pin)
  // _tpin  = 9; //touch Sensor Pin
  //_bpin  = 8; //buzzer Pin 
  //_upin  = 7; //Ultrosonic Pin 
+  // Reverse NexGen advised wiring
+  /*
   _mlpin = 2; // motorLPin PWM output pin connected to the motor left pin
   _lpin  = 3; // dirLPin direction left pin connected to the motor
   _mrpin = 5; // motorRPin PWM output pin connected to the motor right pin
   _rpin  = 6; // dirRPin direction right pin connected to the motor
+*/
+// NexGen
+  _mlpin = 3; // motorLPin PWM output connected to PWM A
+  _lpin  = 2; // dirLPin direction left pin connected to the motor
+  _mrpin = 6; // motorRPin PWM output pin connected to the motor right pin
+  _rpin  = 5; // dirRPin direction right pin connected to the motor
+
   tuningLeftMotor = 0;
   tuningRightMotor = 0;
  }
@@ -290,3 +299,40 @@ void Rbt::stopBrake(int delayms) {
   setSpeed(0);
   delay(delayms);
 }
+void Rbt::stopCoast(int speedPWM){
+  while (speedPWM > 0) {
+    speedPWM -= 45;
+    setSpeed(speedPWM,speedPWM);
+  }
+  speedPWM= max(speedPWM, 0);
+  setSpeed(speedPWM,speedPWM);
+
+}
+
+void Rbt::stopCoastBwd(){
+digitalWrite(_lpin,LOW);
+digitalWrite(_rpin,LOW);
+analogWrite(_mlpin, 0);  
+analogWrite(_mrpin, 0);
+
+}
+
+
+void Rbt::direction_FL() {
+  digitalWrite(_lpin, HIGH);
+  setSpeed(255, 0); 
+}
+void Rbt::direction_FR() {
+  digitalWrite(_rpin, HIGH);
+  setSpeed(0,255); 
+}
+
+void Rbt::direction_BL() {
+  digitalWrite(_lpin, LOW);
+  setSpeed(200, 0); 
+}
+void Rbt::direction_BR() {
+  digitalWrite(_rpin, LOW);
+  setSpeed(0,200); 
+}
+

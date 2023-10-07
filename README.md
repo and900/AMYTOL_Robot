@@ -46,13 +46,13 @@ and allocation of Arduino output pins are as outlined in the tables below.
 ## Rover 3 Wiring 
 | Grove Connector | Grove Pin | Wire Colour | To Motor Driver | Arduino Pin | Notes |
 | --- | --- | --- | --- | -- | -- |
-| J1| 1| Yellow| PWM A | 3 | Left Motor PWM duty cycle for Speed |
-| J1| 2| White| DIR A | 2 | Left Motor for Direction |
-| J1| 3| Not Used| Not Used | |
+| J1| 1| Yellow| PWM A | 2 | Left Motor PWM duty cycle for Speed |
+| J1| 2| White| DIR A | 3 | Left Motor for Direction |
+| J1| 3| Red| Not Used | |
 | J1| 4| Black| Not Used | |
 | J4| 1| Yellow| PWM B| 5 | Right Motor PWM duty cycle for Speed |
 | J4| 2| White| DIR B | 6 | Right Motor for Direction |
-| J4| 3| Not Used| Not Used | |
+| J4| 3| Red | Not Used | |
 | J4| 4| Black| GND | |
 | J3| || Ultrasonic| |
 | J8| || | |
