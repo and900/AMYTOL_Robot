@@ -10,7 +10,7 @@
 
 #ifdef NEXTGEN
 {
-byte pwm_pin[] = { 5, 6, };
+byte pwm_pin[] = { 3, 6, };
 #define VOLTAGE_DETECTION_PIN A0
 #define BATTERY_PIN A0
 #define LOW_VOLTAGE 440

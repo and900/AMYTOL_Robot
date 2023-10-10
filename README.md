@@ -22,44 +22,49 @@
   <h3 align="left"></h3>
 
 # AMYTOL Robot
-AMYTOL created Library and Sample Code for the NEXGEN Rover v3
-# Amytol Robot
-The NexGen Robot has a number of built in sensors which are used bt eh code. 
-
-If you have built your own Robot the code can be used just mofify the OIN configuration in the file Amytol_Robot.cpp.
+AMYTOL created Library and Sample Code for the NEXTGEN Rover v3
+# Amytol Robot NEXTGEN
+The NexGen Robot has a number of built in sensors. 
     <br />
 This library is designed to easily access the robot's functionality.
     <br />
-AMYTOL Robot provides a library for Forward, Back, Brake, Turn Left and Turn Right classes for the motors of the to the NEXGEN Robot
+AMYTOL Robot provides a library for Forward, Back, Brake, Turn Left and Turn Right classes for the motors of the to the NextGen Robot
 # WIRING AMYTOL_X_ Examples
-The Ultrasonic sensor uses the provided library NewPing. No need to add an additional library 
-
+The Ultrasonic sensor uses the provided library NewPing no need for an additional library 
+  <br />
+Wiring for the NewPing version of the Ultrasonic device is:
+  <br />
+| Connector | Pin | Wire Colour | To Motor Driver |
+| --- | --- | --- | --- |
+| J3| |||
+| J8| GROVE || Ultrasonic |
 # WIRING AMYTOL NexGen Examples
 This program assumes wiring for the Rover 3V motor driver inputs 
   <br />
 and allocation of Arduino output pins are as outlined in the tables below.
-
+  <br />
 ## Rover 3 Wiring 
 | Grove Connector | Grove Pin | Wire Colour | To Motor Driver | Arduino Pin | Notes |
 | --- | --- | --- | --- | -- | -- |
 | J1| 1| Yellow| PWM A | 3 | Left Motor PWM duty cycle for Speed |
 | J1| 2| White| DIR A | 2 | Left Motor for Direction |
-| J1| 3| Red| Not Used | |
+| J1| 3| Not Used| Not Used | |
 | J1| 4| Black| Not Used | |
-| J4| 1| Yellow| PWM B| 6 | Right Motor PWM duty cycle for Speed |
-| J4| 2| White| DIR B | 5 | Right Motor for Direction |
-| J4| 3| Red | Not Used | |
+| J4| 1| Yellow| PWM B| 5 | Right Motor PWM duty cycle for Speed |
+| J4| 2| White| DIR B | 6 | Right Motor for Direction |
+| J4| 3| Not Used| Not Used | |
 | J4| 4| Black| GND | |
 | J3| || Ultrasonic| |
+| J8| || | |
  
 ## Motor Driver Outputs
 
 | From Motor Driver | Motor | Wire Colour | 
 | --- | --- | --- |
-| B+ | Left Motor | Red |
-| B- | Left Motor | Black |
-| A- | Right Motor | Red |   
-| A+ | Right Motor | Black | 
+| A+ | Left Motor | Red |
+| A- | Left Motor | Black |
+| B- | Right Motor | Red |   
+| B+ | Right Motor | Black | 
 
 <div align="center">
 <a href="https://github.com/and900/Reference/blob/main/images/">
