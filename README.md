@@ -63,7 +63,7 @@ and allocation of Arduino output pins are as outlined in the tables below.
 
 <div align="center">
 <a href="https://github.com/and900/Reference/blob/main/images/">
-    <img src="https://github.com/and900/Reference/blob/main/images/NEXTGEN%20ROBOT.png" alt="NEXTGEN ROBOT." width="249" height="189">
+    <img src="https://github.com/and900/Reference/blob/main/images/NEXTGEN%20ROBOT.png" alt="NEXTGEN ROBOT" width="249" height="189">
 </a>
 </div>
 <div align="center">
