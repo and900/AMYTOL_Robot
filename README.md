@@ -68,7 +68,7 @@ and allocation of Arduino output pins are as outlined in the tables below.
 </div>
 <div align="center">
 <a href="https://github.com/and900/Reference/blob/main/images//">
-    <img src="https://github.com/and900/Reference/blob/main/images/PCB_PCB_Rover-v3-carrier-board-1.1.pdf" alt="PCB_PCB_Rover-v3-carrier-board-1.1 width="249" height="189">
+    <img src="https://github.com/and900/Reference/blob/main/images/PCB_PCB_Rover-v3-carrier-board-1.1.pdf" alt="PCB_PCB_Rover-v3-carrier-board-1.1" width="249" height="189">
 </a>
 </div>
 
