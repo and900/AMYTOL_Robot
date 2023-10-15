@@ -72,6 +72,13 @@ and allocation of Arduino output pins are as outlined in the tables below.
 </a>
 </div>
 
+
+
+<div align="center">
+<a href="https://github.com/and900/Reference/blob/main/images/">
+    <img src="https://github.com/and900/Reference/blob/main/images/Schematic_Rover-v3-carrier-board-1.1.pdf" alt="Schematic_Rover-v3-carrier-board-1.1" width="249" height="189">
+</a>
+</div>
 # Author
   Created by Andrew Morgan September 8th 2023
   All My Things On Line AMYTOL
